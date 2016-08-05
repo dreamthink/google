@@ -1,0 +1,29 @@
+.logo {
+	margin: 1em auto 0 auto;
+	text-align: center;
+	width: 50%;
+	font-family: "Futura";
+	font-size: 7em;
+	/*border: 1px solid black;*/
+}
+
+#search-form {
+	text-align: center;
+}
+
+#search {
+	margin: 1em auto;
+}
+
+.broken-body {
+	background: url("../images/robot.png") 100% 1em no-repeat;
+	margin-right: 205px;
+	height: 25em;
+}
+
+.broken {
+	text-align: left;
+	width: 75%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
