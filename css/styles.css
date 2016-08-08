@@ -22,8 +22,9 @@
 
 .broken {
 	text-align: left;
-	width: 35%;
+	width: 40em;
 	margin: 0 auto;
+	padding: 0 2em;
 	/*border: 1px solid black;*/
 }
 
@@ -87,7 +88,7 @@ input:active {
 }
 
 #robot {
-	margin: 0 auto;
+	margin-left: 45%;
 }
 
 #info-block {
@@ -95,6 +96,10 @@ input:active {
 	margin: 0 auto;
 	text-align: left;
 	/*border: 1px solid black;*/
+}
+
+#by-block {
+	margin-top: 5em;
 }
 
 #footer {
