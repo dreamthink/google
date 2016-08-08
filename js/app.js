@@ -10,6 +10,11 @@ angular.module("InternetIsBrokenApp", ["ngRoute", "ngAnimate"])
 			controller: "ErrorController",
 			controllerAs: "vm"
 		})
+		.when("/info", {
+			templateUrl: "templates/info.html",
+			controller: "InfoController",
+			contorllerAs: "vm"
+		})
 		.otherwise({
 			redirectTo: "/error"
 		});
@@ -61,8 +66,10 @@ angular.module("InternetIsBrokenApp", ["ngRoute", "ngAnimate"])
 			"visit a museum",
 			"read a book",
 			"write in a journal",
-			"draw something",
-			"learn to cook a new recipe",
+			"draw a picture",
+			"paint a picture",
+			"start that novel you've been meaning to write",
+			"learn a new recipe",
 			"make your bed",
 			"organize your closet",
 			"go to the gym",
@@ -73,7 +80,10 @@ angular.module("InternetIsBrokenApp", ["ngRoute", "ngAnimate"])
 			"visit a farmer's market",
 			"work in your garden",
 			"takes a Pilates class",
+			"learn how to skateboard",
 			"ride a bike",
+			"try archery",
+			"learn judo",
 			"get a manicure or pedicure",
 			"take a trapeze class",
 			"lie in the grass and do some cloud-watching",
