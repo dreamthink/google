@@ -69,18 +69,25 @@ angular.module("InternetIsBrokenApp", ["ngRoute", "ngAnimate"])
 			"meditate",
 			"practice yoga",
 			"volunteer at an animal shelter",
-			"get to know your neighbors",
+			"say hello to your neighbors",
 			"visit a farmer's market",
 			"work in your garden",
 			"takes a Pilates class",
 			"ride a bike",
 			"get a manicure or pedicure",
 			"take a trapeze class",
-			"lie in the grass and watch the clouds",
+			"lie in the grass and do some cloud-watching",
 			"go to a flea market",
 			"learn some phrases of a foreign language",
 			"play a board game",
-			"start an arts & crafts project"
+			"start an arts & crafts project",
+			"play the piano",
+			"learn a new instrument",
+			"sing a song",
+			"take a nap",
+			"walk your dog",
+			"go bird watching",
+			"bake cookies"
 			];
 	
 		$("#array").html(activities[(Math.floor(Math.random() * activities.length))]);

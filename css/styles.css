@@ -18,7 +18,6 @@
 .broken-body {
 	background: url("../images/robot.png") 100% 1em no-repeat;
 	margin-right: 205px;
-	height: 25em;
 }
 
 .broken {
@@ -28,23 +27,43 @@
 	/*border: 1px solid black;*/
 }
 
-#btn {
-	margin-left: 1em;
+#buttons {
+	text-align: center;
 	border-radius: none;
+}
+
+#search-again {
+	margin: 0 auto;
+}
+
+.btn {
+	margin: 1em;
+	background-color: #F2F2F2;
+	color: #666666;
+	border-radius: 2px;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: "arial", "sans-serif";
+}
+
+.btn:hover {
+	color: black;
+	text-decoration: none;
 }
 
 .speech {
 	border: 1px solid #DDD;
-	width: 300px;
+	width: 40em;
 	padding: 0;
-	margin: 0
+	margin: 0 auto;
+	border-radius: 5px;
 }
 
 .speech input {
 	border: 0;
-	width: 240px;
+	width: 15em;
 	display: inline-block;
-	height: 30px;
+	height: 3em;
 }
 
 .speech img {
@@ -52,8 +71,12 @@
 	width: 40px
 }
 
-#labnol {
-	margin: 0 auto 0 auto;
-	border: 1px solid black;
+#view.ng-enter {
+	animation: fadein 1s;
 }
 
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
