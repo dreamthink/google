@@ -1,13 +1,12 @@
-<h1>Google</h1>
+<h1>Google - The Internet Is Broken</h1>
 
-http://dreamthink.github.io/google
+<strong><a href="https://dreamthink.github.io/google" target="_blank">View demo</a></strong>
 
-<p><strong>OVERVIEW: </strong><br>
-A mockup of the Google search page, this app playfully returns an "Internet is broken" error message no matter what the search term is and offers a low-tech activity for the user to do instead. This app is a reminder to take a break from technology every now and then.
-</p>
-<p><strong>CHALLENGES:</strong><br>
-This was the first project where I implemented HTML5 Web Speech API for voice recognition, similar to the actual Google search page. It asks for the user's permission to access the device microphone for this feature. I learned that the exact font face for the Google main logo was a custom font, so I acquired the logo in an image format.
-</p>
-<p><strong>FRAMEWORKS USED:</strong><br>
-HTML, CSS, jQuery, JavaScript, Bootstrap, AngularJS
-</p>
+A mockup of the Google search page, this project returns an "Internet is broken" error message no matter what the search term is and offers a low-tech activity for the user to do instead. This app is a reminder to take a break from technology every now and then.
+
+<a href="https://dreamthink.github.io/google" target="_blank"><img src="images/screenshot.gif"></a>
+
+<h3>BUILT WITH:</h3>
+HTML, Web Speech API, CSS, jQuery, JavaScript, Bootstrap, AngularJS
+
+<strong><a href="https://dreamthink.github.io/google" target="_blank">View demo</a></strong>
